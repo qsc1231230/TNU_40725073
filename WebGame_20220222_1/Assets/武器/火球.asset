@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bb9b104e3db314d9ec50bba763e9d0, type: 3}
+  m_Name: "\u706B\u7403"
+  m_EditorClassIdentifier: 
+  speedFly: 100
+  attack: 20
+  counntStart: 1
+  countMax: 3
+  interval: 10
+  v2SpawnPoint:
+  - {x: -0.5, y: 0, z: 0}
+  goWeapon: {fileID: 2036412429465982099, guid: a8770c722708396408fedf4f86b44cbe, type: 3}
+  v3Direction: {x: -1, y: 0.2, z: 0}
