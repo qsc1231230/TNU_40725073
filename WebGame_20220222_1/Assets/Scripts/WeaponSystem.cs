@@ -12,6 +12,9 @@ namespace AZ
     /// </summary>
     public class WeaponSystem : MonoBehaviour
     {
+        [SerializeField, Header("武器刪除時間"), Range(0, 5)]
+        private float weaponDestoryTime = 3.5f;
+
         [SerializeField, Header("武器資料")]
         private DataWeapon dataWeapon;
        
@@ -53,6 +56,7 @@ namespace AZ
 
                 timer = 3;
 
+                Destroy(temp, weaponDestoryTime);
             }
             else
             {
