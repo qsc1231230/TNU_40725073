@@ -42,7 +42,7 @@ namespace AZ
         }
         private void spawnWeapon()
         {
-            print("經過時間:" + timer);
+            //print("經過時間:" + timer);
 
             if(timer >= dataWeapon.interval)
             {
@@ -57,6 +57,8 @@ namespace AZ
                 timer = 3;
 
                 Destroy(temp, weaponDestoryTime);
+
+                temp.GetComponent<Weapon>().attack = dataWeapon.attack;
             }
             else
             {

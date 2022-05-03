@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -5268202540115834245}
   - component: {fileID: -3233423035628228938}
   - component: {fileID: 2948048289654398052}
+  - component: {fileID: 2843662744761707901}
   m_Layer: 6
   m_Name: '#1 - Transparent Icons_84'
   m_TagString: Untagged
@@ -133,3 +134,16 @@ ConstantForce2D:
   m_Force: {x: 0, y: 0}
   m_RelativeForce: {x: 0, y: 0}
   m_Torque: -50
+--- !u!114 &2843662744761707901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94683378272515705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b47976be80bb4c4088c16c686ecf185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bb9b104e3db314d9ec50bba763e9d0, type: 3}
   m_Name: "\u65A7\u982D"
   m_EditorClassIdentifier: 
-  speedFly: 500
+  speedFly: 350
   attack: 15
   counntStart: 1
   countMax: 20
